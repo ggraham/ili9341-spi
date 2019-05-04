@@ -1,4 +1,4 @@
-const uint8_t UbuntuMonoBold48pt7bBitmaps[] PROGMEM = {
+const uint8_t UbuntuMono_Bold48pt7bBitmaps[] PROGMEM = {
   0x7F, 0xFD, 0xFF, 0xF7, 0xFF, 0xDF, 0xFF, 0x7F, 0xFD, 0xFF, 0xF7, 0xFF,
   0xDF, 0xFF, 0x7F, 0xFD, 0xFF, 0xF7, 0xFF, 0xDF, 0xFF, 0x7F, 0xFD, 0xFF,
   0xF7, 0xFF, 0xDF, 0xFF, 0x7F, 0xFD, 0xFF, 0xF7, 0xFF, 0xDF, 0xFF, 0x7F,
@@ -2037,7 +2037,7 @@ const uint8_t UbuntuMonoBold48pt7bBitmaps[] PROGMEM = {
   0x03, 0xFF, 0xFC, 0x01, 0xF8, 0x00, 0x0F, 0xFF, 0x00, 0x01, 0x80, 0x00,
   0x1F, 0xC0, 0x00 };
 
-const GFXglyph UbuntuMonoBold48pt7bGlyphs[] PROGMEM = {
+const GFXglyph UbuntuMono_Bold48pt7bGlyphs[] PROGMEM = {
   {     0,   0,   0,  47,    0,    1 },   // 0x20 ' '
   {     0,  14,  59,  47,   16,  -57 },   // 0x21 '!'
   {   104,  30,  26,  47,    8,  -63 },   // 0x22 '"'
@@ -2134,9 +2134,9 @@ const GFXglyph UbuntuMonoBold48pt7bGlyphs[] PROGMEM = {
   { 23982,  35,  82,  47,    6,  -65 },   // 0x7D '}'
   { 24341,  44,  17,  47,    2,  -32 } }; // 0x7E '~'
 
-const GFXfont UbuntuMonoBold48pt7b PROGMEM = {
-  (uint8_t  *)UbuntuMonoBold48pt7bBitmaps,
-  (GFXglyph *)UbuntuMonoBold48pt7bGlyphs,
+const GFXfont UbuntuMono_Bold48pt7b PROGMEM = {
+  (uint8_t  *)UbuntuMono_Bold48pt7bBitmaps,
+  (GFXglyph *)UbuntuMono_Bold48pt7bGlyphs,
   0x20, 0x7E, 94 };
 
 // Approx. 25107 bytes
