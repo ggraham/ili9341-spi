@@ -2170,7 +2170,7 @@ const GFXglyph FreeMonoBold24pt7bGlyphs[] = {
 GFXfont FreeMonoBold24pt7b = {
   (uint8_t *)FreeMonoBold24pt7bBitmaps,
   (GFXglyph *)FreeMonoBold24pt7bGlyphs,
-  0x20,                                0x7E,47, 0, 0, 0, 0
+  0x20, 0x7E, 94, 0, 0, 0, 0
 };
 
 // Approx. 7469 bytes
