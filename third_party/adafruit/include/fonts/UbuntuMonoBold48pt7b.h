@@ -2139,7 +2139,7 @@ const GFXglyph UbuntuMonoBold48pt7bGlyphs[] PROGMEM = {
 const GFXfont UbuntuMonoBold48pt7b PROGMEM = {
   (uint8_t  *)UbuntuMonoBold48pt7bBitmaps,
   (GFXglyph *)UbuntuMonoBold48pt7bGlyphs,
-  0x20, 0x7E, 94 };
+  0x20, 0x7E, 94, 0, 0, 0 };
 
 // Approx. 25107 bytes
 #endif
